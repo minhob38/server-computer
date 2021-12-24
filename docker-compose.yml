@@ -1,6 +1,7 @@
 version: "3.0"
 services:
-  expressserver:
+  express-server:
     image: minhob38/express-server:latest
+    container_name: express-server
     ports:
       - "8000:8000"
