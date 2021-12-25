@@ -1,4 +1,4 @@
 my-server.pem
 ssh
 jenkins-docker/jenkins_home
-.env
+keys

@@ -9,6 +9,7 @@ RUN /install-docker.sh
 RUN usermod -aG docker jenkins
 RUN chmod 777 /install-ngrok.sh
 RUN /install-ngrok.sh
+RUN apt-get install nano
 # USER jenkins
 EXPOSE 8080
 
