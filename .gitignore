@@ -1,3 +1,4 @@
 my-server.pem
 ssh
-jenkins/jenkins-volume
+jenkins-docker/jenkins_home
+.env
