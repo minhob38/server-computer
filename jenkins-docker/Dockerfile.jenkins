@@ -7,7 +7,13 @@ WORKDIR /
 RUN chmod 777 /install-docker.sh
 RUN /install-docker.sh
 RUN usermod -aG docker jenkins
-USER jenkins
+RUN chmod 777 /install-ngrok.sh
+RUN /install-ngrok.sh
+# USER jenkins
 EXPOSE 8080
 
-# chomod로 host의 /var/run/docker.sock permission 수정
+# Remarks
+# - chomod로 host의 /var/run/docker.sock permission 수정
+# - passwd root로 비밀번호 설정하기
+# - jenkins로 user 바꾸기 (optional)
+# - ngrok http 8080으로 jenkins port 외부에 열기 (localhost 환경에서)
