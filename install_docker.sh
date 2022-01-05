@@ -1,5 +1,4 @@
-echo "begin - install docker and docker compose"
-
+echo "=== docker install ==="
 # docker install (ubuntu)
 # https://docs.docker.com/engine/install/ubuntu/
 sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -26,11 +25,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
 # docker compose install (linux)
 # https://docs.docker.com/compose/install/
+echo "=== docker compose install ==="
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
-docker version
-docker-compose --version
-
-echo "end - install docker and docker compose"
+sudo chmod 777 /var/run/docker.sock
+sudo usermod -aG docker $USER
