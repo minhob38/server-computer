@@ -33,3 +33,9 @@ jenkins 안에 debian을 기반으로 docker를 설치합니다.
 ### • install-ngrok.sh
 
 jenkins 안에 linux 기반으로 ngrok을 설치합니다.
+
+## jenkins ci/cd 설정
+
+### • github 연동
+
+### • pipeline
