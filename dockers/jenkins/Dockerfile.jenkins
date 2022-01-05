@@ -11,6 +11,7 @@ RUN /install_docker.sh
 RUN usermod -aG docker jenkins
 RUN chmod 777 /install_ngrok.sh
 RUN /install_ngrok.sh
+RUN chmod 777 /install_editor.sh
 RUN /install_editor.sh
 # USER jenkins
 EXPOSE 8080
