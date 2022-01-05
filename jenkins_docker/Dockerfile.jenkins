@@ -2,14 +2,14 @@ FROM jenkins/jenkins:latest
 MAINTAINER minho <minhob38@gmail.com>
 LABEL purpose=jenkins-server
 USER root
-COPY ./install-docker.sh /install-docker.sh
+COPY ./install_docker.sh /install_docker.sh
 WORKDIR /
-RUN chmod 777 /install-docker.sh
-RUN /install-docker.sh
+RUN chmod 777 /install_docker.sh
+RUN /install_docker.sh
 RUN usermod -aG docker jenkins
-RUN chmod 777 /install-ngrok.sh
-RUN /install-ngrok.sh
-RUN apt-get install nano
+RUN chmod 777 /install_ngrok.sh
+RUN /install_ngrok.sh
+RUN /install_editor.sh
 # USER jenkins
 EXPOSE 8080
 
