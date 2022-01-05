@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  nginx-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    container_name: nginx
+    ports:
+      - "80:80"
