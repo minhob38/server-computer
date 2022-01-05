@@ -3,6 +3,8 @@ MAINTAINER minho <minhob38@gmail.com>
 LABEL purpose=jenkins-server
 USER root
 COPY ./install_docker.sh /install_docker.sh
+COPY ./install_ngrok.sh /install_ngrok.sh
+COPY ./install_editor.sh /install_editor.sh
 WORKDIR /
 RUN chmod 777 /install_docker.sh
 RUN /install_docker.sh
