@@ -8,5 +8,5 @@ if [ -d ~/${SERVER} ]; then
     echo "pull" && cd ~/${SERVER} && git pull origin master;
 fi
 
-docker-compose-up -p server_a -f ~/${SERVER}/docker-compose.yml up -d
-docker-compose-up -p server_b -f ~/${SERVER}/docker-compose.yml up -d
+docker-compose -p server_a -f ~/${SERVER}/docker-compose.yml up -d
+docker-compose -p server_b -f ~/${SERVER}/docker-compose.yml up -d
