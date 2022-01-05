@@ -1,6 +1,4 @@
-echo "down - jenkins docker"
+echo "=== jenkins docker down ==="
 
 CURDIR=`dirname $0`
 sudo docker-compose -f $CURDIR/docker-compose.jenkins.yml down
-
-echo "complete - jenkins docker"

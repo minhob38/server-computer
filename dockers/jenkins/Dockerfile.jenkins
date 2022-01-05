@@ -14,7 +14,7 @@ RUN /install_editor.sh
 EXPOSE 8080
 
 # Remarks
-# - chomod로 host의 /var/run/docker.sock permission 수정
+# - chomod로 host의 /var/run/docker.sock permission 수정하기
 # - passwd root로 비밀번호 설정하기
 # - jenkins로 user 바꾸기 (optional)
 # - ngrok http 8080으로 jenkins port 외부에 열기 (localhost 환경에서)

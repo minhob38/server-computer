@@ -1,4 +1,4 @@
-echo "begin - install ngrok"
+echo "ngrok install"
 
 # ngrok install install (debian)
 # https://ngrok.com/download
@@ -7,5 +7,3 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" \
 | tee /etc/apt/sources.list.d/ngrok.list \
 && apt update && apt install ngrok
-
-echo "end - install ngrok"
