@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  backend-server:
+    image: minhob38/express-server:latest
+    ports:
+      - "8001-8002:8000"
+    volumes:
+      - ../keys/.env:/usr/app/.env
+    # mac에서는 volume을 다시 volume할 수 없다.

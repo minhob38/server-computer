@@ -1,3 +1,2 @@
-jenkins-docker/jenkins_home
-/keys
-/ssh/keys
+jenkins_home
+keys

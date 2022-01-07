@@ -2,17 +2,18 @@ FROM jenkins/jenkins:latest
 MAINTAINER minho <minhob38@gmail.com>
 LABEL purpose=jenkins-server
 USER root
-COPY ./install_docker.sh /install_docker.sh
-COPY ./install_ngrok.sh /install_ngrok.sh
-COPY ./install_editor.sh /install_editor.sh
 WORKDIR /
-RUN chmod 777 /install_docker.sh
-RUN /install_docker.sh
+RUN mkdir server-computer
+COPY ./install_docker.sh server-computer/install_docker.sh
+COPY ./install_ngrok.sh server-computer/install_ngrok.sh
+COPY ./install_editor.sh server-computer/install_editor.sh
+RUN chmod 777 /server-computer/install_docker.sh
+RUN server-computer/install_docker.sh
 RUN usermod -aG docker jenkins
-RUN chmod 777 /install_ngrok.sh
-RUN /install_ngrok.sh
-RUN chmod 777 /install_editor.sh
-RUN /install_editor.sh
+RUN chmod 777 /server-computer/install_ngrok.sh
+RUN server-computer/install_ngrok.sh
+RUN chmod 777 /server-computer/install_editor.sh
+RUN server-computer/install_editor.sh
 # USER jenkins
 EXPOSE 8080
 
@@ -21,3 +22,4 @@ EXPOSE 8080
 # - passwd root로 비밀번호 설정하기
 # - jenkins로 user 바꾸기 (optional)
 # - ngrok http 8080으로 jenkins port 외부에 열기 (localhost 환경에서)
+# - 상위경로 접근
