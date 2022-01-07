@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile.nginx
     container_name: nginx
     ports:
-      - "80:80"
+      - "81:80"
