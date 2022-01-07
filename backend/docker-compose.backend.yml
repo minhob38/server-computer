@@ -6,4 +6,4 @@ services:
       - "8001-8002:8000"
     volumes:
       - ../keys/.env:/usr/app/.env
-    # mac에서는 volume을 다시 volume할 수 없다.
+    # mac에서는 volume을 다시 volume하면 error가 발생하며, 별도의 설정을 해주어야 된다.
