@@ -4,18 +4,13 @@ docker-compose -f $CURDIR/docker-compose.backend.yml pull
 
 docker-compose -p server_a -f $CURDIR/docker-compose.backend.yml down
 echo "server a down"
-sleep 5
-
 docker-compose -p server_a -f $CURDIR/docker-compose.backend.yml up -d
 echo "server a up"
 
-sleep 1
+sleep 15
 
 docker-compose -p server_b -f $CURDIR/docker-compose.backend.yml down
 echo "server b down"
-
-sleep 15
-
 docker-compose -p server_b -f $CURDIR/docker-compose.backend.yml up -d
 echo "server b up"
 

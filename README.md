@@ -26,7 +26,7 @@ $ sh ~/server-computer/programs/install_docker.sh
 
 ### • Jenkins 설치 및 실행
 
-아래 스크립트로 Jenkins 도커이미지를 만들고 컨테이너를 실행시킵니다.
+아래 스크립트로 jenkins 도커이미지를 만들고 컨테이너를 실행시킵니다. jenkins는 설정된 job을 실행합니다.
 
 ```
 $ sh ~/server-computer/dockers/jenkins/jenkins_up.sh
@@ -34,7 +34,7 @@ $ sh ~/server-computer/dockers/jenkins/jenkins_up.sh
 
 ### • nginx 설치 및 실행
 
-아래 스크립트로 nginx 도커이미지를 만들고 컨테이너를 실행시킵니다.
+아래 스크립트로 nginx 도커이미지를 만들고 컨테이너를 실행시킵니다. nginx는 webserver로 static file을 응답하고, reverse proxy로 api요청을 backend애 전달 및 로드밸런싱합니다.
 
 ```
 $ sh ~/server-computer/dockers/nginx/nginx_up.sh
@@ -50,16 +50,15 @@ $ sh ~/server-computer/dockers/nginx/nginx_up.sh
 $ sh ~/server-computer/server/server_up.sh
 ``` -->
 
-### • application server 설치 및 실행
+### • backend server 실행(배포)
 
-## 서버환경
+아래 스크립트로 dockerhub에서 이미지를 pull하여, 도커 컨테이너로 순차적으로 backend server실행시킵니다.  
+🔐 환경변수 파일을 jenkins에 넣어주고, backend server 컨테이너 실행 시 볼륨으로 올려줍니다.
 
-도커로 이루어져있으며,
+```
+$ sh ~/backend/deploy_backend.sh
+```
 
-### • nginx
+### • frontend server 실행(배포)
 
-nginx는 정적파일(react)를 응답하며, api 서버에 로드밸런싱을 해줍니다.
-
-### •
-
-jenkins를 기반으로 ci/cd를 구축합니다. github 저장소(application server)에 소스코드가 바뀌면 jenkins에 webhook을 요청합니다. jenkins는 설정된 job에 따라 application server 소스코드를 pull한 뒤, 도커 이미지 생성 및 컨테이너를 실행시킵니다. 이때 nginx를 통해 무중단배포(rolling 방식)이 이루어집니다.
+frontend의 static file을 `~/frontend`에 위치시키면, nginx가 경로를 읽어 응답합니다.
