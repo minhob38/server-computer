@@ -7,3 +7,5 @@ services:
     container_name: nginx
     ports:
       - "81:80"
+    volumes:
+      - ../../frontend:/static_files
