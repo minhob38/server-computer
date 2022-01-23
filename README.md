@@ -1,4 +1,4 @@
-# Server Compute
+# Server Computer
 
 서버환경(ubuntu)을 Docker기반으로 설정하는 소스코드입니다.
 
