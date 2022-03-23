@@ -1,0 +1,28 @@
+version: "3.0"
+services:
+  elasticsearch-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.elasticsearch
+    container_name: elasticsearch-server
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    networks:
+      - elk
+  kibana-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.kibana
+    container_name: kibana-server
+    # environment:
+    #   - discovery.type=single-node
+    ports:
+      - "5601:5601"
+    networks:
+      - elk
+networks:
+  elk:
+    driver: bridge

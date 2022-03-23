@@ -1,0 +1,4 @@
+FROM kibana:8.1.0
+MAINTAINER minho <minhob38@gmail.com>
+LABEL purpose=kinbana-server
+# RUN apt-get update && apt-get -y install vim && apt-get -y install nano
