@@ -1,4 +1,19 @@
-FROM kibana:8.1.0
+FROM kibana:7.17.1
 MAINTAINER minho <minhob38@gmail.com>
 LABEL purpose=kinbana-server
 # RUN apt-get update && apt-get -y install vim && apt-get -y install nano
+
+
+# docker exec -it elasticsearch-server /usr/share/elasticsearch/bin/elasticsearch-reset-password
+# docker cp elasticsearch-server:/usr/share/elasticsearch/config/certs/http_ca.crt .
+# docker exec -it elasticsearch-server /bin/bash
+# ./bin/elasticsearch-setup-passwords auto
+# ./bin/elasticsearch-setup-passwords -h
+
+# ㅇㅏ래꺼는 됨
+# docker run --name elasticsearch -d\
+#  -p 127.0.0.1:9200:9200\
+#  -p 127.0.0.1:9300:9300\
+#  -e "discovery.type=single-node"\
+#  docker.elastic.co/elasticsearch/elasticsearch:7.15.2
+#  docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.2

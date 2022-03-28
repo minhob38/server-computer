@@ -12,13 +12,16 @@ services:
       - "9300:9300"
     networks:
       - elk
+
   kibana-server:
     build:
       context: .
       dockerfile: Dockerfile.kibana
     container_name: kibana-server
-    # environment:
-    #   - discovery.type=single-node
+    depends_on:
+      - elasticsearch-server
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch-server:9200
     ports:
       - "5601:5601"
     networks:
