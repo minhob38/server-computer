@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.elasticsearch
-    container_name: elasticsearch-server
+    container_name: elasticsearch
     environment:
       - discovery.type=single-node
     ports:
@@ -18,10 +18,13 @@ services:
       context: .
       dockerfile: Dockerfile.kibana
     container_name: kibana-server
-    depends_on:
-      - elasticsearch-server
-    environment:
-      - ELASTICSEARCH_URL=http://elasticsearch-server:9200
+    # depends_on:
+    #   - elasticsearch-server
+    # environment:
+    # - ELASTICSEARCH_=http://localhost:9200
+    # ELASTICSEARCH_HOSTS: '["http://elasticsearchasdsadsadserver:9200"]'
+    # volumes:
+    #   - ./config/kibana.yml:/usr/share/kibana/config/kibana.yml
     ports:
       - "5601:5601"
     networks:

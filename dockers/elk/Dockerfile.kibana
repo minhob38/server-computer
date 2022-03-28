@@ -17,3 +17,42 @@ LABEL purpose=kinbana-server
 #  -e "discovery.type=single-node"\
 #  docker.elastic.co/elasticsearch/elasticsearch:7.15.2
 #  docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.2
+
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["info","plugins-service"],"pid":7,"message":"Plugin \"metricsEntities\" is disabled."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["info","http","server","Preboot"],"pid":7,"message":"http server running at http://0.0.0.0:5601"}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","config","deprecation"],"pid":7,"message":"Starting in 8.0, the Kibana logging format will be changing. This may affect you if you are doing any special handling of your Kibana logs, such as ingesting logs into Elasticsearch for further analysis. If you are using the new logging configuration, you are already receiving logs in both old and new formats, and the old format will simply be going away. If you are not yet using the new logging configuration, the log format will change upon upgrade to 8.0. Beginning in 8.0, the format of JSON logs will be ECS-compatible JSON, and the default pattern log format will be configurable with our new logging system. Please refer to the documentation for more information about the new logging format."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","config","deprecation"],"pid":7,"message":"The default mechanism for Reporting privileges will work differently in future versions, which will affect the behavior of this cluster. Set \"xpack.reporting.roles.enabled\" to \"false\" to adopt the future behavior before upgrading."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","config","deprecation"],"pid":7,"message":"User sessions will automatically time out after 8 hours of inactivity starting in 8.0. Override this value to change the timeout."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","config","deprecation"],"pid":7,"message":"Users are automatically required to log in again after 30 days starting in 8.0. Override this value to change the timeout."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["info","plugins-system","standard"],"pid":7,"message":"Setting up [113] plugins: [translations,licensing,globalSearch,globalSearchProviders,features,licenseApiGuard,code,usageCollection,xpackLegacy,taskManager,telemetryCollectionManager,telemetryCollectionXpack,kibanaUsageCollection,share,embeddable,uiActionsEnhanced,screenshotMode,banners,telemetry,newsfeed,mapsEms,mapsLegacy,kibanaLegacy,fieldFormats,expressions,dataViews,charts,esUiShared,bfetch,data,savedObjects,presentationUtil,expressionShape,expressionRevealImage,expressionRepeatImage,expressionMetric,expressionImage,customIntegrations,home,searchprofiler,painlessLab,grokdebugger,management,watcher,licenseManagement,advancedSettings,spaces,security,savedObjectsTagging,reporting,canvas,lists,ingestPipelines,fileUpload,encryptedSavedObjects,dataEnhanced,cloud,snapshotRestore,eventLog,actions,alerting,triggersActionsUi,transform,stackAlerts,ruleRegistry,visualizations,visTypeXy,visTypeVislib,visTypeVega,visTypeTimelion,visTypeTagcloud,visTypeTable,visTypePie,visTypeMetric,visTypeMarkdown,tileMap,regionMap,expressionTagcloud,expressionMetricVis,console,graph,fleet,indexManagement,remoteClusters,crossClusterReplication,indexLifecycleManagement,dashboard,maps,dashboardMode,dashboardEnhanced,visualize,visTypeTimeseries,rollup,indexPatternFieldEditor,lens,cases,timelines,discover,osquery,observability,discoverEnhanced,dataVisualizer,ml,uptime,securitySolution,infra,upgradeAssistant,monitoring,logstash,enterpriseSearch,apm,savedObjectsManagement,indexPatternManagement]"}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["info","plugins","taskManager"],"pid":7,"message":"TaskManager is identified by the Kibana UUID: f5df73d4-f9e9-478c-98a8-d74484c4603e"}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","security","config"],"pid":7,"message":"Generating a random key for xpack.security.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.security.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","security","config"],"pid":7,"message":"Session cookies will be transmitted over insecure connections. This is not recommended."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","security","config"],"pid":7,"message":"Generating a random key for xpack.security.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.security.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","security","config"],"pid":7,"message":"Session cookies will be transmitted over insecure connections. This is not recommended."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","reporting","config"],"pid":7,"message":"Generating a random key for xpack.reporting.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.reporting.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","encryptedSavedObjects"],"pid":7,"message":"Saved objects encryption key is not set. This will severely limit Kibana functionality. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","actions"],"pid":7,"message":"APIs are disabled because the Encrypted Saved Objects plugin is missing encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["warning","plugins","alerting"],"pid":7,"message":"APIs are disabled because the Encrypted Saved Objects plugin is missing encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:14+00:00","tags":["info","plugins","ruleRegistry"],"pid":7,"message":"Installing common resources shared between all indices"}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:15+00:00","tags":["info","plugins","reporting","config"],"pid":7,"message":"Chromium sandbox provides an additional layer of protection, and is supported for Linux Ubuntu 20.04 OS. Automatically enabling Chromium sandbox."}
+
+# {"type":"log","@timestamp":"2022-03-28T15:34:15+00:00","tags":["error","elasticsearch-service"],"pid":7,"message":"Unable to retrieve version information from Elasticsearch nodes. getaddrinfo ENOTFOUND elasticsearch"}
