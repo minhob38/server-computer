@@ -4,9 +4,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.elasticsearch
-    container_name: elasticsearch
+    container_name: elasticsearch-server
     environment:
       - discovery.type=single-node
+    volumes:
+      - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -18,17 +20,34 @@ services:
       context: .
       dockerfile: Dockerfile.kibana
     container_name: kibana-server
-    # depends_on:
-    #   - elasticsearch-server
-    # environment:
-    # - ELASTICSEARCH_=http://localhost:9200
-    # ELASTICSEARCH_HOSTS: '["http://elasticsearchasdsadsadserver:9200"]'
-    # volumes:
-    #   - ./config/kibana.yml:/usr/share/kibana/config/kibana.yml
+    volumes:
+      - ./config/kibana.yml:/usr/share/kibana/config/kibana.yml
     ports:
       - "5601:5601"
     networks:
       - elk
+    depends_on:
+      - elasticsearch-server
+
+  # logstash-server:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.logstash
+  #   container_name: logstash-server
+  #   environment:
+  #     LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+  #   volumes:
+  #     - ./config/logstash.yml:/usr/share/logstash/config/logstash.yml
+  #     - ./config/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+  #   ports:
+  #     - "5000:5000/tcp"
+  #     - "5000:5000/udp"
+  #     - "9600:9600"
+  #   networks:
+  #     - elk
+  #   depends_on:
+  #     - elasticsearch-server
+
 networks:
   elk:
     driver: bridge
