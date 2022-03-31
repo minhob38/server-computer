@@ -1,0 +1,518 @@
+2022-03-29 11:00:39 info: Server listening on port 60000
+2022-03-29 11:01:13 info: Server listening on port 60000
+2022-03-29 11:02:30 info: Server listening on port 60000
+2022-03-29 11:06:22 info: Server listening on port 60000
+2022-03-29 11:12:23 info: Server listening on port 60000
+2022-03-29 11:12:55 info: Server listening on port 60000
+2022-03-29 11:13:51 info: Server listening on port 60000
+2022-03-29 11:19:08 info: Server listening on port 60000
+2022-03-29 11:19:38 info: Server listening on port 60000
+2022-03-29 12:06:32 info: Server listening on port 60000
+2022-03-29 17:00:45 info: Server listening on port 60000
+2022-03-29 17:01:15 info: Server listening on port 60000
+2022-03-29 17:01:37 info: Server listening on port 60000
+2022-03-29 17:02:04 info: Server listening on port 60000
+2022-03-29 17:16:02 info: Server listening on port 60000
+2022-03-29 17:17:35 info: Server listening on port 60000
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs/ HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10351 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 143858 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 319759 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1080049 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:18:15 info: ::1 - - [29/Mar/2022:08:18:15 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:19:52 info: Server listening on port 60000
+2022-03-29 17:20:34 info: Server listening on port 60000
+2022-03-29 17:21:56 info: Server listening on port 60000
+2022-03-29 17:22:10 info: ::1 - - [29/Mar/2022:08:22:10 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:22:10 info: ::1 - - [29/Mar/2022:08:22:10 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:22:10 info: ::1 - - [29/Mar/2022:08:22:10 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:22:10 info: ::1 - - [29/Mar/2022:08:22:10 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10895 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:22:10 info: ::1 - - [29/Mar/2022:08:22:10 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:22:10 info: ::1 - - [29/Mar/2022:08:22:10 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:22:19 info: ::1 - - [29/Mar/2022:08:22:19 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:23:43 info: Server listening on port 60000
+2022-03-29 17:24:35 info: Server listening on port 60000
+2022-03-29 17:25:22 info: Server listening on port 60000
+2022-03-29 17:28:43 info: Server listening on port 60000
+2022-03-29 17:29:06 info: Server listening on port 60000
+2022-03-29 17:29:36 info: Server listening on port 60000
+2022-03-29 17:31:17 info: Server listening on port 60000
+2022-03-29 17:32:35 info: Server listening on port 60000
+2022-03-29 17:33:03 info: Server listening on port 60000
+2022-03-29 17:36:27 info: Server listening on port 60000
+2022-03-29 17:38:17 info: Server listening on port 60000
+2022-03-29 17:39:38 info: Server listening on port 60000
+2022-03-29 17:40:08 info: ::1 - - [29/Mar/2022:08:40:08 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:40:15 info: ::1 - - [29/Mar/2022:08:40:15 +0000] "POST /api/auth/signup HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:40:25 info: ::1 - - [29/Mar/2022:08:40:25 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:40:39 info: ::1 - - [29/Mar/2022:08:40:39 +0000] "POST /api/auth/signup HTTP/1.1" 400 81 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:40:47 info: ::1 - - [29/Mar/2022:08:40:47 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:42:35 info: Server listening on port 60000
+2022-03-29 17:42:37 info: ::1 - - [29/Mar/2022:08:42:37 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:43:08 info: ::1 - - [29/Mar/2022:08:43:08 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:43:21 info: ::1 - - [29/Mar/2022:08:43:21 +0000] "POST /api/auth/signup HTTP/1.1" 400 94 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:47:15 info: Server listening on port 60000
+2022-03-29 17:47:49 info: Server listening on port 60000
+2022-03-29 17:48:07 info: ::1 - - [29/Mar/2022:08:48:07 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:48:13 info: ::1 - - [29/Mar/2022:08:48:13 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:48:32 info: Server listening on port 60000
+2022-03-29 17:48:39 info: ::1 - - [29/Mar/2022:08:48:39 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:48:57 info: Server listening on port 60000
+2022-03-29 17:48:57 info: ::1 - - [29/Mar/2022:08:48:57 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:49:01 info: ::1 - - [29/Mar/2022:08:49:01 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:49:33 info: ::1 - - [29/Mar/2022:08:49:33 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:49:39 info: ::1 - - [29/Mar/2022:08:49:39 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:51:07 info: Server listening on port 60000
+2022-03-29 17:52:45 info: Server listening on port 60000
+2022-03-29 17:52:53 info: ::1 - - [29/Mar/2022:08:52:53 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:52:59 info: ::1 - - [29/Mar/2022:08:52:59 +0000] "POST /api/auth/signup HTTP/1.1" 400 72 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:53:06 info: ::1 - - [29/Mar/2022:08:53:06 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 17:54:14 info: Server listening on port 60000
+2022-03-29 17:57:36 info: Server listening on port 60000
+2022-03-29 17:58:36 info: Server listening on port 60000
+2022-03-29 18:02:04 info: Server listening on port 60000
+2022-03-29 18:08:34 info: Server listening on port 60000
+2022-03-29 18:08:35 info: ::1 - - [29/Mar/2022:09:08:35 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:08:52 info: ::1 - - [29/Mar/2022:09:08:52 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:08:54 info: ::1 - - [29/Mar/2022:09:08:54 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:09:08 info: ::1 - - [29/Mar/2022:09:09:08 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:09:10 info: ::1 - - [29/Mar/2022:09:09:10 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:09:18 info: ::1 - - [29/Mar/2022:09:09:18 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:09:19 info: ::1 - - [29/Mar/2022:09:09:19 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:09:39 info: Server listening on port 60000
+2022-03-29 18:13:01 info: Server listening on port 60000
+2022-03-29 18:13:02 info: ::1 - - [29/Mar/2022:09:13:02 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:13:14 info: ::1 - - [29/Mar/2022:09:13:14 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:14:52 info: ::1 - - [29/Mar/2022:09:14:52 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:14:55 info: ::1 - - [29/Mar/2022:09:14:55 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:14:56 info: ::1 - - [29/Mar/2022:09:14:56 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:15:01 info: ::1 - - [29/Mar/2022:09:15:01 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:15:03 info: ::1 - - [29/Mar/2022:09:15:03 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:15:06 info: ::1 - - [29/Mar/2022:09:15:06 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:15:07 info: ::1 - - [29/Mar/2022:09:15:07 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:15:09 info: ::1 - - [29/Mar/2022:09:15:09 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:17:49 info: Server listening on port 60000
+2022-03-29 18:17:50 info: ::1 - - [29/Mar/2022:09:17:50 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:17:54 info: ::1 - - [29/Mar/2022:09:17:54 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:20:17 info: Server listening on port 60000
+2022-03-29 18:20:18 info: ::1 - - [29/Mar/2022:09:20:18 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:20:31 info: ::1 - - [29/Mar/2022:09:20:31 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:20:38 info: ::1 - - [29/Mar/2022:09:20:38 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:20:43 info: ::1 - - [29/Mar/2022:09:20:43 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:21:03 info: ::1 - - [29/Mar/2022:09:21:03 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:21:46 info: Server listening on port 60000
+2022-03-29 18:21:47 info: ::1 - - [29/Mar/2022:09:21:47 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:21:48 info: ::1 - - [29/Mar/2022:09:21:48 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:22:13 info: Server listening on port 60000
+2022-03-29 18:22:17 info: ::1 - - [29/Mar/2022:09:22:17 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:22:20 info: ::1 - - [29/Mar/2022:09:22:20 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:22:37 info: Server listening on port 60000
+2022-03-29 18:22:40 info: ::1 - - [29/Mar/2022:09:22:40 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:22:43 info: ::1 - - [29/Mar/2022:09:22:43 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:22:47 info: ::1 - - [29/Mar/2022:09:22:47 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:23:43 info: Server listening on port 60000
+2022-03-29 18:24:27 info: Server listening on port 60000
+2022-03-29 18:24:34 info: ::1 - - [29/Mar/2022:09:24:34 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:24:47 info: ::1 - - [29/Mar/2022:09:24:47 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:25:12 info: ::1 - - [29/Mar/2022:09:25:12 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:25:30 info: ::1 - - [29/Mar/2022:09:25:30 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:30:02 info: Server listening on port 60000
+2022-03-29 18:30:45 info: ::1 - - [29/Mar/2022:09:30:45 +0000] "POST /api/auth/signup HTTP/1.1" 400 116 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:31:03 info: ::1 - - [29/Mar/2022:09:31:03 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:31:11 info: ::1 - - [29/Mar/2022:09:31:11 +0000] "POST /api/auth/signup HTTP/1.1" 400 116 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:32:36 info: Server listening on port 60000
+2022-03-29 18:32:38 info: ::1 - - [29/Mar/2022:09:32:38 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:32:39 info: ::1 - - [29/Mar/2022:09:32:39 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:32:42 info: ::1 - - [29/Mar/2022:09:32:42 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:32:53 info: ::1 - - [29/Mar/2022:09:32:53 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:34:19 info: Server listening on port 60000
+2022-03-29 18:35:45 info: Server listening on port 60000
+2022-03-29 18:47:20 info: Server listening on port 60000
+2022-03-29 18:47:25 info: ::1 - - [29/Mar/2022:09:47:25 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:47:27 info: ::1 - - [29/Mar/2022:09:47:27 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:47:43 info: ::1 - - [29/Mar/2022:09:47:43 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:47:48 info: ::1 - - [29/Mar/2022:09:47:48 +0000] "POST /api/auth/signup HTTP/1.1" 400 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:47:56 info: ::1 - - [29/Mar/2022:09:47:56 +0000] "POST /api/auth/signup HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:49:39 info: Server listening on port 60000
+2022-03-29 18:51:26 info: Server listening on port 60000
+2022-03-29 18:52:11 info: Server listening on port 60000
+2022-03-29 18:54:09 info: Server listening on port 60000
+2022-03-29 18:54:24 info: ::1 - - [29/Mar/2022:09:54:24 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:54:24 info: ::1 - - [29/Mar/2022:09:54:24 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:54:24 info: ::1 - - [29/Mar/2022:09:54:24 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:54:24 info: ::1 - - [29/Mar/2022:09:54:24 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 13808 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:54:24 info: ::1 - - [29/Mar/2022:09:54:24 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:54:24 info: ::1 - - [29/Mar/2022:09:54:24 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:54:31 info: ::1 - - [29/Mar/2022:09:54:31 +0000] "POST /api/auth/signin HTTP/1.1" 404 41 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:55:26 info: Server listening on port 60000
+2022-03-29 18:55:34 info: ::1 - - [29/Mar/2022:09:55:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:55:34 info: ::1 - - [29/Mar/2022:09:55:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:55:34 info: ::1 - - [29/Mar/2022:09:55:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:55:34 info: ::1 - - [29/Mar/2022:09:55:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 13807 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:55:34 info: ::1 - - [29/Mar/2022:09:55:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:55:35 info: ::1 - - [29/Mar/2022:09:55:35 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:56:22 info: Server listening on port 60000
+2022-03-29 18:56:26 info: ::1 - - [29/Mar/2022:09:56:26 +0000] "POST /api/auth/signup HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:56:34 info: ::1 - - [29/Mar/2022:09:56:34 +0000] "POST /api/auth/signup HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:56:56 info: Server listening on port 60000
+2022-03-29 18:58:56 info: Server listening on port 60000
+2022-03-29 18:58:57 error: insert into "inapp"."users" ("company_name", "email", "is_email_consent", "password", "phone_number", "user_name") values ($1, $2, $3, $4, $5, $6) returning "id" - duplicate key value violates unique constraint "users_email_key" "POST /api/auth/signup" 500 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+2022-03-29 18:58:57 info: ::1 - - [29/Mar/2022:09:58:57 +0000] "POST /api/auth/signup HTTP/1.1" 500 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:19 info: Server listening on port 60000
+2022-03-29 18:59:23 info: ::1 - - [29/Mar/2022:09:59:23 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:23 info: ::1 - - [29/Mar/2022:09:59:23 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:23 info: ::1 - - [29/Mar/2022:09:59:23 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:23 info: ::1 - - [29/Mar/2022:09:59:23 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:23 info: ::1 - - [29/Mar/2022:09:59:23 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:23 info: ::1 - - [29/Mar/2022:09:59:23 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:29 info: ::1 - - [29/Mar/2022:09:59:29 +0000] "POST /api/auth/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:41 info: ::1 - - [29/Mar/2022:09:59:41 +0000] "POST /api/auth/login HTTP/1.1" 400 65 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:49 info: ::1 - - [29/Mar/2022:09:59:49 +0000] "POST /api/auth/login HTTP/1.1" 400 65 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:53 info: ::1 - - [29/Mar/2022:09:59:53 +0000] "POST /api/auth/login HTTP/1.1" 400 65 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 18:59:57 info: ::1 - - [29/Mar/2022:09:59:57 +0000] "POST /api/auth/login HTTP/1.1" 400 61 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:00:02 info: ::1 - - [29/Mar/2022:10:00:02 +0000] "POST /api/auth/login HTTP/1.1" 400 61 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:00:10 info: ::1 - - [29/Mar/2022:10:00:10 +0000] "POST /api/auth/login HTTP/1.1" 400 61 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:02:57 info: Server listening on port 60000
+2022-03-29 19:02:58 info: ::1 - - [29/Mar/2022:10:02:58 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:02:58 info: ::1 - - [29/Mar/2022:10:02:58 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:02:58 info: ::1 - - [29/Mar/2022:10:02:58 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:02:58 info: ::1 - - [29/Mar/2022:10:02:58 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 13847 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:02:58 info: ::1 - - [29/Mar/2022:10:02:58 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:02:58 info: ::1 - - [29/Mar/2022:10:02:58 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:03:32 info: Server listening on port 60000
+2022-03-29 19:05:01 info: Server listening on port 60000
+2022-03-29 19:05:07 info: ::1 - - [29/Mar/2022:10:05:07 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:05:07 info: ::1 - - [29/Mar/2022:10:05:07 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:05:07 info: ::1 - - [29/Mar/2022:10:05:07 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:05:07 info: ::1 - - [29/Mar/2022:10:05:07 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 14141 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:05:07 info: ::1 - - [29/Mar/2022:10:05:07 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:05:08 info: ::1 - - [29/Mar/2022:10:05:08 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:06:15 info: Server listening on port 60000
+2022-03-29 19:07:23 info: Server listening on port 60000
+2022-03-29 19:09:00 info: Server listening on port 60000
+2022-03-29 19:26:18 info: Server listening on port 60000
+2022-03-29 19:26:36 info: Server listening on port 60000
+2022-03-29 19:27:34 info: Server listening on port 60000
+2022-03-29 19:27:59 info: Server listening on port 60000
+2022-03-29 19:28:18 info: Server listening on port 60000
+2022-03-29 19:28:54 info: Server listening on port 60000
+2022-03-29 19:29:31 info: Server listening on port 60000
+2022-03-29 19:30:49 info: Server listening on port 60000
+2022-03-29 19:31:13 info: Server listening on port 60000
+2022-03-29 19:31:28 info: Server listening on port 60000
+2022-03-29 19:32:44 info: Server listening on port 60000
+2022-03-29 19:35:01 info: Server listening on port 60000
+2022-03-29 19:35:39 info: Server listening on port 60000
+2022-03-29 19:36:43 info: Server listening on port 60000
+2022-03-29 19:37:04 info: ::1 - - [29/Mar/2022:10:37:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:04 info: ::1 - - [29/Mar/2022:10:37:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:04 info: ::1 - - [29/Mar/2022:10:37:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:04 info: ::1 - - [29/Mar/2022:10:37:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 21617 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:04 info: ::1 - - [29/Mar/2022:10:37:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:04 info: ::1 - - [29/Mar/2022:10:37:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:19 info: ::1 - - [29/Mar/2022:10:37:19 +0000] "POST /api/auth/me HTTP/1.1" 404 41 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:52 info: Server listening on port 60000
+2022-03-29 19:37:55 info: ::1 - - [29/Mar/2022:10:37:55 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:55 info: ::1 - - [29/Mar/2022:10:37:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:55 info: ::1 - - [29/Mar/2022:10:37:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:55 info: ::1 - - [29/Mar/2022:10:37:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 21620 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:55 info: ::1 - - [29/Mar/2022:10:37:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:37:55 info: ::1 - - [29/Mar/2022:10:37:55 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:09 info: ::1 - - [29/Mar/2022:10:38:09 +0000] "PATCH /api/auth/me HTTP/1.1" 400 71 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:39 info: Server listening on port 60000
+2022-03-29 19:38:47 info: ::1 - - [29/Mar/2022:10:38:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:47 info: ::1 - - [29/Mar/2022:10:38:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:47 info: ::1 - - [29/Mar/2022:10:38:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:47 info: ::1 - - [29/Mar/2022:10:38:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:47 info: ::1 - - [29/Mar/2022:10:38:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:38:47 info: ::1 - - [29/Mar/2022:10:38:47 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:39:00 info: ::1 - - [29/Mar/2022:10:39:00 +0000] "PATCH /api/auth/me HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:41:59 info: Server listening on port 60000
+2022-03-29 19:42:45 info: Server listening on port 60000
+2022-03-29 19:42:46 info: ::1 - - [29/Mar/2022:10:42:46 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:42:47 info: ::1 - - [29/Mar/2022:10:42:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:42:47 info: ::1 - - [29/Mar/2022:10:42:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:42:47 info: ::1 - - [29/Mar/2022:10:42:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:42:47 info: ::1 - - [29/Mar/2022:10:42:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:42:47 info: ::1 - - [29/Mar/2022:10:42:47 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:42:56 info: ::1 - - [29/Mar/2022:10:42:56 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:43:11 info: ::1 - - [29/Mar/2022:10:43:11 +0000] "POST /api/auth/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:43:44 info: ::1 - - [29/Mar/2022:10:43:44 +0000] "PATCH /api/auth/me HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:44:33 info: Server listening on port 60000
+2022-03-29 19:44:52 info: Server listening on port 60000
+2022-03-29 19:45:32 info: ::1 - - [29/Mar/2022:10:45:32 +0000] "PATCH /api/auth/me HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:39 info: ::1 - - [29/Mar/2022:10:45:39 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:39 info: ::1 - - [29/Mar/2022:10:45:39 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:39 info: ::1 - - [29/Mar/2022:10:45:39 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:39 info: ::1 - - [29/Mar/2022:10:45:39 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:39 info: ::1 - - [29/Mar/2022:10:45:39 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:39 info: ::1 - - [29/Mar/2022:10:45:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:45:49 error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [email] query: select * from "inapp"."users" where "email" = ? limit ? "PATCH /api/auth/me" 500 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+2022-03-29 19:45:49 info: ::1 - - [29/Mar/2022:10:45:49 +0000] "PATCH /api/auth/me HTTP/1.1" 500 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:46:41 info: Server listening on port 60000
+2022-03-29 19:46:50 error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [email] query: select * from "inapp"."users" where "email" = ? limit ? "PATCH /api/auth/me" 500 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+2022-03-29 19:46:50 info: ::1 - - [29/Mar/2022:10:46:50 +0000] "PATCH /api/auth/me HTTP/1.1" 500 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:48:23 info: Server listening on port 60000
+2022-03-29 19:48:57 error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [email] query: select * from "inapp"."users" where "email" = ? limit ? "PATCH /api/auth/me" 500 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+2022-03-29 19:48:57 info: ::1 - - [29/Mar/2022:10:48:57 +0000] "PATCH /api/auth/me HTTP/1.1" 500 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 19:49:30 info: Server listening on port 60000
+2022-03-29 19:50:23 info: Server listening on port 60000
+2022-03-29 20:08:41 info: Server listening on port 60000
+2022-03-29 20:09:23 info: ::1 - - [29/Mar/2022:11:09:23 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:09:23 info: ::1 - - [29/Mar/2022:11:09:23 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:09:23 info: ::1 - - [29/Mar/2022:11:09:23 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:09:23 info: ::1 - - [29/Mar/2022:11:09:23 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 26955 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:09:23 info: ::1 - - [29/Mar/2022:11:09:23 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:09:23 info: ::1 - - [29/Mar/2022:11:09:23 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:09:36 info: ::1 - - [29/Mar/2022:11:09:36 +0000] "POST /api/auth/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:10:06 info: ::1 - - [29/Mar/2022:11:10:06 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:11:01 info: ::1 - - [29/Mar/2022:11:11:01 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:11:59 info: Server listening on port 60000
+2022-03-29 20:12:00 info: ::1 - - [29/Mar/2022:11:12:00 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:12:26 info: Server listening on port 60000
+2022-03-29 20:12:27 info: ::1 - - [29/Mar/2022:11:12:27 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:15:57 info: Server listening on port 60000
+2022-03-29 20:16:12 info: ::1 - - [29/Mar/2022:11:16:12 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:16:25 info: ::1 - - [29/Mar/2022:11:16:25 +0000] "POST /api/auth/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:16:54 info: ::1 - - [29/Mar/2022:11:16:54 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:16:55 info: ::1 - - [29/Mar/2022:11:16:55 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:16:55 info: ::1 - - [29/Mar/2022:11:16:55 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:16:55 info: ::1 - - [29/Mar/2022:11:16:55 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:16:55 info: ::1 - - [29/Mar/2022:11:16:55 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:18 info: Server listening on port 60000
+2022-03-29 20:18:25 info: ::1 - - [29/Mar/2022:11:18:25 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:33 info: ::1 - - [29/Mar/2022:11:18:33 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:34 info: ::1 - - [29/Mar/2022:11:18:34 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:38 info: ::1 - - [29/Mar/2022:11:18:38 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:38 info: ::1 - - [29/Mar/2022:11:18:38 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:39 info: ::1 - - [29/Mar/2022:11:18:39 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:39 info: ::1 - - [29/Mar/2022:11:18:39 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:39 info: ::1 - - [29/Mar/2022:11:18:39 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:18:42 info: ::1 - - [29/Mar/2022:11:18:42 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:06 info: Server listening on port 60000
+2022-03-29 20:19:07 info: ::1 - - [29/Mar/2022:11:19:07 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:07 info: ::1 - - [29/Mar/2022:11:19:07 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:07 info: ::1 - - [29/Mar/2022:11:19:07 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:07 info: ::1 - - [29/Mar/2022:11:19:07 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 27072 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:07 info: ::1 - - [29/Mar/2022:11:19:07 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:07 info: ::1 - - [29/Mar/2022:11:19:07 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:19:28 info: ::1 - - [29/Mar/2022:11:19:28 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:20 info: Server listening on port 60000
+2022-03-29 20:21:22 info: ::1 - - [29/Mar/2022:11:21:22 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:23 info: ::1 - - [29/Mar/2022:11:21:23 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:23 info: ::1 - - [29/Mar/2022:11:21:23 +0000] "PATCH /api/auth/me HTTP/1.1" 400 106 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:25 info: ::1 - - [29/Mar/2022:11:21:25 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:25 info: ::1 - - [29/Mar/2022:11:21:25 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:25 info: ::1 - - [29/Mar/2022:11:21:25 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:25 info: ::1 - - [29/Mar/2022:11:21:25 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 27168 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:25 info: ::1 - - [29/Mar/2022:11:21:25 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:25 info: ::1 - - [29/Mar/2022:11:21:25 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:30 info: ::1 - - [29/Mar/2022:11:21:30 +0000] "POST /api/auth/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+
+2022-03-29 20:21:48 error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [email] query: select * from "inapp"."users" where "email" = ? limit ? "PATCH /api/auth/me" 500 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+2022-03-29 20:21:48 info: ::1 - - [29/Mar/2022:11:21:48 +0000] "PATCH /api/auth/me HTTP/1.1" 500 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+

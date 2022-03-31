@@ -1,0 +1,123 @@
+2022-03-30T14:58:39.873Z INFO instance/beat.go:686 Home path: [/usr/share/filebeat] Config path: [/usr/share/filebeat] Data path: [/usr/share/filebeat/data] Logs path: [/usr/share/filebeat/logs] Hostfs Path: [/]
+
+2022-03-30T14:58:39.883Z INFO instance/beat.go:694 Beat ID: f9ebbfde-91b2-4d42-ab4c-18567c57de14
+
+2022-03-30T14:58:39.887Z INFO [seccomp] seccomp/seccomp.go:124 Syscall filter successfully installed
+
+2022-03-30T14:58:39.890Z INFO [beat] instance/beat.go:1040 Beat info {"system_info": {"beat": {"path": {"config": "/usr/share/filebeat", "data": "/usr/share/filebeat/data", "home": "/usr/share/filebeat", "logs": "/usr/share/filebeat/logs"}, "type": "filebeat", "uuid": "f9ebbfde-91b2-4d42-ab4c-18567c57de14"}}}
+
+2022-03-30T14:58:39.893Z INFO [beat] instance/beat.go:1049 Build info {"system_info": {"build": {"commit": "1d05ba86138cfc9a5ae5c0acc64a57b8d81678ff", "libbeat": "7.17.1", "time": "2022-02-23T23:38:04.000Z", "version": "7.17.1"}}}
+
+2022-03-30T14:58:39.893Z INFO [beat] instance/beat.go:1052 Go runtime info {"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":8,"version":"go1.17.6"}}}
+
+2022-03-30T14:58:39.894Z INFO [beat] instance/beat.go:1056 Host info {"system_info": {"host": {"architecture":"x86_64","boot_time":"2022-03-29T15:22:53Z","containerized":true,"name":"d057bbefc512","ip":["127.0.0.1/8","192.168.128.3/20"],"kernel_version":"5.10.47-linuxkit","mac":["02:42:c0:a8:80:03"],"os":{"type":"linux","family":"debian","platform":"ubuntu","name":"Ubuntu","version":"20.04.3 LTS (Focal Fossa)","major":20,"minor":4,"patch":3,"codename":"focal"},"timezone":"UTC","timezone_offset_sec":0}}}
+
+2022-03-30T14:58:39.894Z INFO [beat] instance/beat.go:1085 Process info {"system_info": {"process": {"capabilities": {"inheritable":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"permitted":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"effective":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"bounding":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"ambient":null}, "cwd": "/usr/share/filebeat", "exe": "/usr/share/filebeat/filebeat", "name": "filebeat", "pid": 7, "ppid": 1, "seccomp": {"mode":"filter","no_new_privs":true}, "start_time": "2022-03-30T14:58:38.000Z"}}}
+
+2022-03-30T14:58:39.894Z INFO instance/beat.go:328 Setup Beat: filebeat; Version: 7.17.1
+
+2022-03-30T14:58:39.898Z INFO [publisher] pipeline/module.go:113 Beat name: d057bbefc512
+
+2022-03-30T14:58:39.995Z WARN beater/filebeat.go:202 Filebeat is unable to load the ingest pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the ingest pipelines or are using Logstash pipelines, you can ignore this warning.
+
+2022-03-30T14:58:39.998Z INFO instance/beat.go:492 filebeat start running.
+
+2022-03-30T14:58:40.003Z INFO [monitoring] log/log.go:142 Starting metrics logging every 30s
+
+2022-03-30T14:58:40.062Z INFO memlog/store.go:119 Loading data file of '/usr/share/filebeat/data/registry/filebeat' succeeded. Active transaction id=0
+
+2022-03-30T14:58:40.062Z INFO memlog/store.go:124 Finished loading transaction log file for '/usr/share/filebeat/data/registry/filebeat'. Active transaction id=0
+
+2022-03-30T14:58:40.062Z WARN beater/filebeat.go:411 Filebeat is unable to load the ingest pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the ingest pipelines or are using Logstash pipelines, you can ignore this warning.
+
+2022-03-30T14:58:40.062Z INFO [registrar] registrar/registrar.go:109 States Loaded from registrar: 0
+
+2022-03-30T14:58:40.062Z INFO [crawler] beater/crawler.go:71 Loading Inputs: 1
+
+2022-03-30T14:58:40.063Z WARN [cfgwarn] log/input.go:89 DEPRECATED: Log input. Use Filestream input instead.
+
+2022-03-30T14:58:40.064Z INFO [input] log/input.go:171 Configured paths: [/usr/share/filebeat/logs/logs/*] {"input_id": "33b03eea-a656-4ad3-bb9b-edb323543723"}
+
+2022-03-30T14:58:40.064Z INFO [crawler] beater/crawler.go:141 Starting input (ID: 4504121438485162223)
+
+2022-03-30T14:58:40.064Z INFO [crawler] beater/crawler.go:108 Loading and starting Inputs completed. Enabled inputs: 1
+
+2022-03-30T14:58:40.074Z INFO [input.harvester] log/harvester.go:309 Harvester started for file. {"input_id": "33b03eea-a656-4ad3-bb9b-edb323543723", "source": "/usr/share/filebeat/logs/logs/2022-03-29.log", "state_id": "native::30360385-121", "finished": false, "os_id": "30360385-121", "harvester_id": "4f2db24c-80f6-42b7-9b2e-167e5f947f45"}
+
+2022-03-30T14:58:41.079Z INFO [publisher_pipeline_output] pipeline/output.go:143 Connecting to backoff(async(tcp://logstash-server:5044))
+
+2022-03-30T14:58:41.079Z INFO [publisher] pipeline/retry.go:219 retryer: send unwait signal to consumer
+
+2022-03-30T14:58:41.079Z INFO [publisher] pipeline/retry.go:223   done
+
+2022-03-30T14:58:43.041Z ERROR [publisher_pipeline_output] pipeline/output.go:154 Failed to connect to backoff(async(tcp://logstash-server:5044)): dial tcp 192.168.128.5:5044: connect: connection refused
+
+2022-03-30T14:58:43.041Z INFO [publisher_pipeline_output] pipeline/output.go:145 Attempting to reconnect to backoff(async(tcp://logstash-server:5044)) with 1 reconnect attempt(s)
+
+2022-03-30T14:58:43.041Z INFO [publisher] pipeline/retry.go:219 retryer: send unwait signal to consumer
+
+2022-03-30T14:58:43.041Z INFO [publisher] pipeline/retry.go:223   done
+
+2022-03-30T14:58:45.936Z ERROR [publisher_pipeline_output] pipeline/output.go:154 Failed to connect to backoff(async(tcp://logstash-server:5044)): dial tcp 192.168.128.5:5044: connect: connection refused
+
+2022-03-30T14:58:45.936Z INFO [publisher_pipeline_output] pipeline/output.go:145 Attempting to reconnect to backoff(async(tcp://logstash-server:5044)) with 2 reconnect attempt(s)
+
+2022-03-30T14:58:45.936Z INFO [publisher] pipeline/retry.go:219 retryer: send unwait signal to consumer
+
+2022-03-30T14:58:45.936Z INFO [publisher] pipeline/retry.go:223   done
+
+2022-03-30T14:58:51.602Z ERROR [publisher_pipeline_output] pipeline/output.go:154 Failed to connect to backoff(async(tcp://logstash-server:5044)): dial tcp 192.168.128.5:5044: connect: connection refused
+
+2022-03-30T14:58:51.602Z INFO [publisher_pipeline_output] pipeline/output.go:145 Attempting to reconnect to backoff(async(tcp://logstash-server:5044)) with 3 reconnect attempt(s)
+
+2022-03-30T14:58:51.602Z INFO [publisher] pipeline/retry.go:219 retryer: send unwait signal to consumer
+
+2022-03-30T14:58:51.602Z INFO [publisher] pipeline/retry.go:223   done
+
+2022-03-30T14:59:06.689Z ERROR [publisher_pipeline_output] pipeline/output.go:154 Failed to connect to backoff(async(tcp://logstash-server:5044)): dial tcp 192.168.128.5:5044: connect: connection refused
+
+2022-03-30T14:59:06.689Z INFO [publisher_pipeline_output] pipeline/output.go:145 Attempting to reconnect to backoff(async(tcp://logstash-server:5044)) with 4 reconnect attempt(s)
+
+2022-03-30T14:59:06.689Z INFO [publisher] pipeline/retry.go:219 retryer: send unwait signal to consumer
+
+2022-03-30T14:59:06.690Z INFO [publisher] pipeline/retry.go:223   done
+
+2022-03-30T14:59:10.045Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpu":{"cfs":{"period":{"us":100000}},"id":"/"},"cpuacct":{"id":"/","total":{"ns":1154817499}},"memory":{"id":"/","mem":{"limit":{"bytes":9223372036854771712},"usage":{"bytes":105152512}}}},"cpu":{"system":{"ticks":300,"time":{"ms":308}},"total":{"ticks":1130,"time":{"ms":1146},"value":1130},"user":{"ticks":830,"time":{"ms":838}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":10},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":30535},"version":"7.17.1"},"memstats":{"gc_next":27157120,"memory_alloc":16961904,"memory_sys":42550280,"memory_total":57167408,"rss":120733696},"runtime":{"goroutines":39}},"filebeat":{"events":{"active":518,"added":519,"done":1},"harvester":{"open_files":1,"running":1,"started":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0},"type":"logstash"},"pipeline":{"clients":1,"events":{"active":313,"filtered":206,"published":313,"retry":1252,"total":519},"queue":{"max_events":4096}}},"registrar":{"states":{"current":1,"update":1},"writes":{"success":1,"total":1}},"system":{"cpu":{"cores":8},"load":{"1":3.36,"15":0.43,"5":1.03,"norm":{"1":0.42,"15":0.0538,"5":0.1288}}}}}}
+
+2022-03-30T14:59:32.255Z ERROR [publisher_pipeline_output] pipeline/output.go:154 Failed to connect to backoff(async(tcp://logstash-server:5044)): dial tcp 192.168.128.5:5044: connect: connection refused
+
+2022-03-30T14:59:32.261Z INFO [publisher_pipeline_output] pipeline/output.go:145 Attempting to reconnect to backoff(async(tcp://logstash-server:5044)) with 5 reconnect attempt(s)
+
+2022-03-30T14:59:32.262Z INFO [publisher] pipeline/retry.go:219 retryer: send unwait signal to consumer
+
+2022-03-30T14:59:32.262Z INFO [publisher] pipeline/retry.go:223   done
+
+2022-03-30T14:59:32.267Z INFO [publisher_pipeline_output] pipeline/output.go:151 Connection to backoff(async(tcp://logstash-server:5044)) established
+
+2022-03-30T14:59:39.967Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":66854927}},"memory":{"mem":{"usage":{"bytes":-7618560}}}},"cpu":{"system":{"ticks":310,"time":{"ms":11}},"total":{"ticks":1160,"time":{"ms":29},"value":1160},"user":{"ticks":850,"time":{"ms":18}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":60495},"version":"7.17.1"},"memstats":{"gc_next":27157120,"memory_alloc":18528536,"memory_total":58734040,"rss":115109888},"runtime":{"goroutines":40}},"filebeat":{"events":{"active":-518,"done":518},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":313,"active":0,"batches":1,"total":313},"read":{"bytes":6},"write":{"bytes":10952}},"pipeline":{"clients":1,"events":{"active":0,"retry":626},"queue":{"acked":313}}},"registrar":{"states":{"current":1,"update":518},"writes":{"success":1,"total":1}},"system":{"load":{"1":3.23,"15":0.52,"5":1.25,"norm":{"1":0.4038,"15":0.065,"5":0.1563}}}}}}
+
+2022-03-30T15:00:09.949Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":19915565}},"memory":{"mem":{"usage":{"bytes":208896}}}},"cpu":{"system":{"ticks":320,"time":{"ms":7}},"total":{"ticks":1180,"time":{"ms":17},"value":1180},"user":{"ticks":860,"time":{"ms":10}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":90491},"version":"7.17.1"},"memstats":{"gc_next":27157120,"memory_alloc":19209520,"memory_total":59415024,"rss":115109888},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":2.44,"15":0.55,"5":1.25,"norm":{"1":0.305,"15":0.0688,"5":0.1563}}}}}}
+
+2022-03-30T15:00:39.930Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":21376796}},"memory":{"mem":{"usage":{"bytes":1200128}}}},"cpu":{"system":{"ticks":330,"time":{"ms":13}},"total":{"ticks":1210,"time":{"ms":36},"value":1210},"user":{"ticks":880,"time":{"ms":23}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":120495},"version":"7.17.1"},"memstats":{"gc_next":27157120,"memory_alloc":20170992,"memory_total":60376496,"rss":116637696},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":1.54,"15":0.54,"5":1.15,"norm":{"1":0.1925,"15":0.0675,"5":0.1438}}}}}}
+
+2022-03-30T15:01:09.906Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":273694956}},"memory":{"mem":{"usage":{"bytes":-6144000}}}},"cpu":{"system":{"ticks":480,"time":{"ms":143}},"total":{"ticks":1480,"time":{"ms":254},"value":1480},"user":{"ticks":1000,"time":{"ms":111}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":150496},"version":"7.17.1"},"memstats":{"gc_next":20527376,"memory_alloc":10507584,"memory_total":60829688,"rss":110395392},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.93,"15":0.52,"5":1.04,"norm":{"1":0.1163,"15":0.065,"5":0.13}}}}}}
+
+2022-03-30T15:01:39.886Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":22490442}},"memory":{"mem":{"usage":{"bytes":45056}}}},"cpu":{"system":{"ticks":490,"time":{"ms":11}},"total":{"ticks":1490,"time":{"ms":21},"value":1490},"user":{"ticks":1000,"time":{"ms":10}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":180496},"version":"7.17.1"},"memstats":{"gc_next":20527376,"memory_alloc":11629944,"memory_total":61952048,"rss":110395392},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.74,"15":0.52,"5":0.98,"norm":{"1":0.0925,"15":0.065,"5":0.1225}}}}}}
+
+2022-03-30T15:02:09.865Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":26322405}},"memory":{"mem":{"usage":{"bytes":307200}}}},"cpu":{"system":{"ticks":500,"time":{"ms":9}},"total":{"ticks":1520,"time":{"ms":26},"value":1520},"user":{"ticks":1020,"time":{"ms":17}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":210491},"version":"7.17.1"},"memstats":{"gc_next":20527376,"memory_alloc":11868856,"memory_total":62190960,"rss":110395392},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.51,"15":0.51,"5":0.9,"norm":{"1":0.0638,"15":0.0638,"5":0.1125}}}}}}
+
+2022-03-30T15:02:39.844Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":14055704}},"memory":{"mem":{"usage":{"bytes":20480}}}},"cpu":{"system":{"ticks":510,"time":{"ms":9}},"total":{"ticks":1540,"time":{"ms":18},"value":1540},"user":{"ticks":1030,"time":{"ms":9}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":240493},"version":"7.17.1"},"memstats":{"gc_next":20527376,"memory_alloc":12819424,"memory_total":63141528,"rss":110637056},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.31,"15":0.49,"5":0.82,"norm":{"1":0.0388,"15":0.0613,"5":0.1025}}}}}}
+
+2022-03-30T15:03:09.823Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":122516636}},"memory":{"mem":{"usage":{"bytes":-3178496}}}},"cpu":{"system":{"ticks":560,"time":{"ms":56}},"total":{"ticks":1650,"time":{"ms":114},"value":1650},"user":{"ticks":1090,"time":{"ms":58}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":270490},"version":"7.17.1"},"memstats":{"gc_next":19387136,"memory_alloc":9721224,"memory_total":63535000,"rss":107548672},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.18,"15":0.47,"5":0.74,"norm":{"1":0.0225,"15":0.0588,"5":0.0925}}}}}}
+
+2022-03-30T15:03:39.792Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":18749351}},"memory":{"mem":{"usage":{"bytes":77824}}}},"cpu":{"system":{"ticks":570,"time":{"ms":8}},"total":{"ticks":1670,"time":{"ms":16},"value":1670},"user":{"ticks":1100,"time":{"ms":8}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":11},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":300491},"version":"7.17.1"},"memstats":{"gc_next":19387136,"memory_alloc":10459240,"memory_total":64273016,"rss":107548672},"runtime":{"goroutines":40}},"filebeat":{"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.11,"15":0.45,"5":0.66,"norm":{"1":0.0138,"15":0.0563,"5":0.0825}}}}}}
+
+2022-03-30T15:03:44.894Z INFO [input.harvester] log/harvester.go:340 File is inactive. Closing because close_inactive of 5m0s reached. {"input_id": "33b03eea-a656-4ad3-bb9b-edb323543723", "source": "/usr/share/filebeat/logs/logs/2022-03-29.log", "state_id": "native::30360385-121", "finished": false, "os_id": "30360385-121", "harvester_id": "4f2db24c-80f6-42b7-9b2e-167e5f947f45"}
+
+2022-03-30T15:04:09.775Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":24594629}},"memory":{"mem":{"usage":{"bytes":724992}}}},"cpu":{"system":{"ticks":580,"time":{"ms":11}},"total":{"ticks":1690,"time":{"ms":23},"value":1690},"user":{"ticks":1110,"time":{"ms":12}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":10},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":330493},"version":"7.17.1"},"memstats":{"gc_next":19387136,"memory_alloc":11175608,"memory_total":64989384,"rss":107548672},"runtime":{"goroutines":35}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"closed":1,"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0,"filtered":1,"total":1}}},"registrar":{"states":{"current":1,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.07,"15":0.44,"5":0.6,"norm":{"1":0.0088,"15":0.055,"5":0.075}}}}}}
+
+2022-03-30T15:04:39.751Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":23211475}},"memory":{"mem":{"usage":{"bytes":65536}}}},"cpu":{"system":{"ticks":590,"time":{"ms":9}},"total":{"ticks":1710,"time":{"ms":20},"value":1710},"user":{"ticks":1120,"time":{"ms":11}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":10},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":360495},"version":"7.17.1"},"memstats":{"gc_next":19387136,"memory_alloc":12337112,"memory_total":66150888,"rss":107847680},"runtime":{"goroutines":35}},"filebeat":{"harvester":{"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.14,"15":0.44,"5":0.57,"norm":{"1":0.0175,"15":0.055,"5":0.0712}}}}}}
+
+2022-03-30T15:05:09.730Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":39892743}},"memory":{"mem":{"usage":{"bytes":-192512}}}},"cpu":{"system":{"ticks":610,"time":{"ms":15}},"total":{"ticks":1750,"time":{"ms":39},"value":1750},"user":{"ticks":1140,"time":{"ms":24}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":10},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":390490},"version":"7.17.1"},"memstats":{"gc_next":19402736,"memory_alloc":9751352,"memory_total":66408496,"rss":108818432},"runtime":{"goroutines":35}},"filebeat":{"harvester":{"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.09,"15":0.42,"5":0.52,"norm":{"1":0.0113,"15":0.0525,"5":0.065}}}}}}
+
+2022-03-30T15:05:39.711Z INFO [monitoring] log/log.go:184 Non-zero metrics in the last 30s {"monitoring": {"metrics": {"beat":{"cgroup":{"cpuacct":{"total":{"ns":21494653}},"memory":{"mem":{"usage":{"bytes":4096}}}},"cpu":{"system":{"ticks":610,"time":{"ms":6}},"total":{"ticks":1770,"time":{"ms":19},"value":1770},"user":{"ticks":1160,"time":{"ms":13}}},"handles":{"limit":{"hard":1048576,"soft":1048576},"open":10},"info":{"ephemeral_id":"22d22f62-ef6d-4f5a-9035-22a76b537fe7","uptime":{"ms":420492},"version":"7.17.1"},"memstats":{"gc_next":19402736,"memory_alloc":10644496,"memory_total":67301640,"rss":108818432},"runtime":{"goroutines":35}},"filebeat":{"harvester":{"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"registrar":{"states":{"current":1}},"system":{"load":{"1":0.05,"15":0.41,"5":0.46,"norm":{"1":0.0063,"15":0.0513,"5":0.0575}}}}}}

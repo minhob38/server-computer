@@ -7,6 +7,8 @@ services:
     container_name: elasticsearch-server
     environment:
       - discovery.type=single-node
+      - ELASTIC_USERNAME=elastic
+      - ELASTIC_PASSWORD=password
     volumes:
       - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     ports:
@@ -29,24 +31,40 @@ services:
     depends_on:
       - elasticsearch-server
 
-  # logstash-server:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile.logstash
-  #   container_name: logstash-server
-  #   environment:
-  #     LS_JAVA_OPTS: "-Xmx256m -Xms256m"
-  #   volumes:
-  #     - ./config/logstash.yml:/usr/share/logstash/config/logstash.yml
-  #     - ./config/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
-  #   ports:
-  #     - "5000:5000/tcp"
-  #     - "5000:5000/udp"
-  #     - "9600:9600"
-  #   networks:
-  #     - elk
-  #   depends_on:
-  #     - elasticsearch-server
+  logstash-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.logstash
+    container_name: logstash-server
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    volumes:
+      - ./config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./config/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    ports:
+      - "5000:5000/tcp"
+      - "5000:5000/udp"
+      # - "5044:5044/tcp"
+      # - "5044:5044/udp"
+      - "9600:9600"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch-server
+
+  filebeat-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.filebeat
+    container_name: filebeat-server
+    user: root
+    volumes:
+      - ./config/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./config/logs:/usr/share/filebeat/logs/logs
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch-server
 
 networks:
   elk:

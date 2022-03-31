@@ -1,0 +1,28 @@
+# filebeat.config:
+#   modules:
+#     path: ${path.config}/modules.d/*.yml
+#     reload.enabled: false
+
+# processors:
+#   - add_cloud_metadata: ~
+#   - add_docker_metadata: ~
+
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /usr/share/filebeat/logs/logs/*
+
+setup.kibana:
+  host: ["http://kibana-server:5601"]
+  protocol: "http"
+  setup.dashboards.enabled: true
+
+output.logstash:
+  hosts: ["logstash-server:5044"] # filebeat와 logstash는 tcp로 통신하기에, http는 붙이지 않습니다.
+# username: "elastic-server"
+# password: "password"
+# output.elasticsearch:
+#   hosts: "http://elasticsearch-server:9200"
+#   username: "elastic-server"
+#   password: "password"
