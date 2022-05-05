@@ -1,0 +1,28 @@
+version: "3.0"
+services:
+  prometheus-server:
+    image: prom/prometheus
+    container_name: prometheus-server
+    volumes:
+      - ./config/prometheus:/etc/prometheus
+      - ./store/prometheus:/data
+    ports:
+      - "9090:9090"
+    networks:
+      - elk
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/data"
+      - "--web.enable-lifecycle"
+  grafana-server:
+    image: grafana/grafana
+    container_name: grafana-server
+    volumes:
+      - ./config/grafana:/etc/grafana
+      - ./store/grafana:/var/lib/grafana
+    ports:
+      - "3000:3000"
+
+networks:
+  prometheus-grafana:
+    driver: bridge
