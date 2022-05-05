@@ -9,7 +9,7 @@ services:
     ports:
       - "9090:9090"
     networks:
-      - elk
+      - prometheus-grafana
     command:
       - "--config.file=/etc/prometheus/prometheus.yml"
       - "--storage.tsdb.path=/data"
@@ -22,7 +22,8 @@ services:
       - ./store/grafana:/var/lib/grafana
     ports:
       - "3000:3000"
-
+    networks:
+      - prometheus-grafana
 networks:
   prometheus-grafana:
     driver: bridge
