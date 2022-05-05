@@ -4,7 +4,7 @@ scrape_configs:
     scrape_timeout: 1s
     static_configs:
       - targets:
-          - prometheus-server:9090
+          - "prometheus-server:9090"
           labels:
             tier: backend
             env: prod
