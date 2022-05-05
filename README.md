@@ -62,3 +62,7 @@ $ sh ~/backend/deploy_backend.sh
 ### • frontend server 실행(배포)
 
 frontend의 static file을 `~/frontend`에 위치시키면, nginx가 경로를 읽어 응답합니다.
+
+<!-- TODO
+
+- readme update (docker-compose, kubernetes, serverless) -->
